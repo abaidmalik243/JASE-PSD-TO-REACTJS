@@ -1,33 +1,132 @@
-.App {
+.Head-img {
+  width: 100%;
+  height: auto;
+}
+.Add_Your_Photo {
+  font-size: 75px;
+  font-family: "Lato";
+}
+
+.profile_detail {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.4;
+  box-shadow: 0px 29px 49px 0px rgba(177, 195, 190, 0.21);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.profile_content {
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 60px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 7px 79px 0px rgba(177, 195, 190, 0.29);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile_content .description p {
+  font-family: "SFProDisplay";
+  color: rgb(184, 184, 184); 
 }
 
-.App-link {
-  color: #61dafb;
+.profile_content .description h1 {
+  font-family: "Lato";
+  color: rgb(71, 83, 95);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.profile_content .description {
+  border-left: 1px solid lightgrey 
+}
+
+.profile_img > img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid #ff0069;
+}
+
+.profile_img {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+.heart img {
+  width: 80%;
+  height: auto;
+}
+.list {
+  margin-top: 30px;
+}
+.list .item {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 9px 65px 0px rgba(177, 195, 190, 0.35);
+}
+
+.list_profile_img > img {
+  width: 65%;
+  height: auto;
+  border-radius: 50%;
+  padding: 8px;
+  border: 1px solid grey;
+}
+
+.list_heart {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.list_heart img { 
+  width: 80%;
+  height: auto;
+}
+
+.profile_title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "SFProDisplay";
+  color: rgb(71, 83, 95);
+  text-align: center;
+  margin: 15px
+}
+
+.profile_content .msg {
+  padding: 40px 0px 0px 40px
+}
+
+.car {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.play {
+  position: absolute;
+  top: 55%;
+  left: 33%;
+}
+
+.car_list {
+  width: 100%;
+  /* height: auto; */
+}
+
+.last {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 9px 65px 0px rgba(177, 195, 190, 0.35);
+  padding: 10px;
+  margin: 0 40px 10px 40px;
 }
